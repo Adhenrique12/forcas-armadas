@@ -4128,6 +4128,10 @@ nav ul {
   margin-top: 1.25rem;
 }
 
+.mt-0 {
+  margin-top: 0px;
+}
+
 .block {
   display: block;
 }
@@ -4182,6 +4186,10 @@ nav ul {
 
 .h-auto {
   height: auto;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-auto {
@@ -4275,6 +4283,10 @@ nav ul {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.whitespace-normal {
+  white-space: normal;
 }
 
 .whitespace-nowrap {
@@ -4427,6 +4439,14 @@ nav ul {
   font-weight: 300;
 }
 
+.font-thin {
+  font-weight: 100;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -4521,6 +4541,22 @@ nav ul {
 @media (min-width: 640px) {
   .sm\:h-7 {
     height: 1.75rem;
+  }
+
+  .sm\:h-1 {
+    height: 0.25rem;
+  }
+
+  .sm\:h-10 {
+    height: 2.5rem;
+  }
+
+  .sm\:h-11 {
+    height: 2.75rem;
+  }
+
+  .sm\:h-12 {
+    height: 3rem;
   }
 }
 
